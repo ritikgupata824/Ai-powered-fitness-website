@@ -38,7 +38,7 @@ chatimg.addEventListener("click",()=>{
 })
 
 
-let API_KEY = "AIzaSyAS4x4myVcBHy5yv39XEsf9LGS0d7aKyoo";
+let API_KEY = "";
 const Api_url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${"AIzaSyAS4x4myVcBHy5yv39XEsf9LGS0d7aKyoo"}`;
 
 async function getApiResponse(aichatbox) {
